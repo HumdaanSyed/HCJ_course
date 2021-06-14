@@ -3,24 +3,50 @@
 <head>
 	<meta charset="utf-8">
 	<title>Humdaan's Page</title>
+	<style>
+
+		*{
+			box-sizing: border-box;
+		}
+
+		div{
+			background-color: #00FFFF;
+		}
+
+		p{
+			width: 50%;
+			border: 1px solid black;
+			padding: 20px;
+			float: left;
+		}
+
+		#p1{
+			background-color: #A52A2A;
+		}
+
+		#p2{
+			background-color: #DEB887;
+		}
+
+		section{
+			clear: left;
+		}
+	</style>
 </head>
 <body>
-<h1>Shopping list</h1>
-<div>
-	
-	<ul>
-		<li>Milk</li>
-		<li>Eggs</li>
-		<li>Coriander</li>
-		<li>Chips</li>
-		<ul>
-			<li>Lays &copy; Copyright</li>
-			<li>Bingo</li>
-		</ul>
-		<li>Curd</li>
-		<li>&quot;Juice&quot;</li>
-	</ul>
+<h1>Floating Elements</h1>
 
+<div>
+	<p id="p1">Click the “Save Note” button below the lecture when you want to capture a screen. You can also highlight and save lines from the transcript below. Add your own notes to anything you’ve captured.
+	</p>
+
+	<p id="p2">
+		Basically a light bluish color, and every single paragraph tag was styled to be 50 pixels wide and 50 pixels tall, and we gave it a nice one pixel border. And just to differentiate between each paragraph box, we gave it a different background color to each one. So let's go ahead and take a look at what this looks like in the browser.
+	</p>
+
+	<section>
+		Content after the paragraph my good sir.
+	</section>
 </div>
 </body>
 </html>
